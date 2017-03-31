@@ -1,0 +1,26 @@
+{
+  "name": "moment-jst",
+  "version": "0.0.1",
+  "description": "JST support for moment.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -t --recursive --require intelli-espower-loader"
+  },
+  "author": "monmon",
+  "license": "MIT",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/monmon/moment-jst"
+  },
+  "dependencies" : {
+    "moment-timezone" : ">= 0.5.11"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "power-assert": "*",
+    "intelli-espower-loader": "*"
+  },
+  "directories": {
+    "test": "test/"
+  }
+}
