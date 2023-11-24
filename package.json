@@ -12,7 +12,7 @@
       "type": "git",
       "url": "https://github.com/monmon/moment-jst"
   },
-  "dependencies" : {
+  "peerDependencies" : {
     "moment-timezone" : ">= 0.5.11"
   },
   "devDependencies": {
